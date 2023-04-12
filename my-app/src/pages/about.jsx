@@ -18,7 +18,7 @@ function About() {
                 <div className="circle absolute top-32 left inset-x-1/2 rounded-full h-3/5 w-3/5 bg-red-300 filter"></div>
                 <img src={person2} alt="" className='w-4/6 z-10 relative object-contain'/>
             </div>  
-            <div className="homeTxt flex-1 flex flex-col items-center justify-center p-32">
+            <div className="homeTxt flex-1 flex flex-col items-center p-32">
                 <div className="txtWrapper">
                     <h1 className='text-blue-500 font-bold text-2xl items-center text-left p-4'>關於我 About us</h1>
                     <div className='flex'>

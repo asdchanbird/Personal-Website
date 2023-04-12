@@ -6,8 +6,8 @@ function App(props) {
     )) 
     return (
         <>
-        <div className="cardShawdow bg-white rounded-xl flex-1 w-1/5 h-3/4 m-10 p-8">
-            <h1 className="font-bold text-2xl">{props.title}</h1>
+        <div className="cardShawdow bg-white rounded-xl flex-1 w-2/8 h-4/6 m-10 p-6 mx-16">
+            <h1 className="font-bold text-xl">{props.title}</h1>
             <ul className="mt-6">
                 {FrontList}
             </ul>

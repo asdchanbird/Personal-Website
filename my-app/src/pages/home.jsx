@@ -30,8 +30,8 @@ function Home() {
     }
     useEffect(()=> {
         //呼叫api使用
-        Get('Felix')
-        GetAll()
+        // Get('Felix')
+        // GetAll()
     },[])
 
     return(

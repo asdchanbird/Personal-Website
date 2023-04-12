@@ -4,7 +4,7 @@ const FirstList = [{
     list:'- HTML / CSS',
 },{
     id:2,
-    list:'- JavaScript ES5 / ES6',
+    list:'- JavaScript',
 },{
     id:3,
     list:'- AJAX / Axios / Fetch',
@@ -19,7 +19,7 @@ const FirstList = [{
     list:'- SASS',
 },{
     id:6,
-    list:'- Vue3 / Vue cli / Vite6',
+    list:'- Vue3 / Vue cli / Vite',
 },{
     id:7,
     list:'- React',
@@ -58,11 +58,17 @@ const ThirdList = [{
 },]
 function Skill(props) {
     return(
-        <div className="App flex justify-center h-screen font-extrabold flex-wrap">
-            <h2 className='mainColor text-5xl block w-full text-center mt-4 '>技能 Skills</h2>
-            <SkillCard List={FirstList} title='前端技能' />
-            <SkillCard List={SecondList} title='後端技能與資料庫' />
-            <SkillCard List={ThirdList} title='其他技能與輔助工具' />
+        <div className="App h-screen">
+            <div className='flex justify-center h-screen font-extrabold flex-col'>
+                <div className=''>
+                    <h2 className='mainColor text-2xl w-full text-center mt-4 h-1/6'>技能 Skills</h2>
+                </div>
+                <div className='flex h-5/6'>
+                    <SkillCard List={FirstList} title='前端技能' />
+                    <SkillCard List={SecondList} title='後端技能與資料庫' />
+                    <SkillCard List={ThirdList} title='其他技能與輔助工具' />
+                </div>
+            </div>
         </div>
     )
 }
