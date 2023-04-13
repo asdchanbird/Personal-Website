@@ -2,6 +2,7 @@
 import Home from './pages/home';
 import About from './pages/about';
 import Skill from './pages/Skill';
+import Project from './pages/project';
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
             <Home />
             <About />
             <Skill />
+            <Project />
         </div>
     );
 }

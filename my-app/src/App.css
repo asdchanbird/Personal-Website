@@ -1,7 +1,10 @@
 .App {
-  background-color:#F3F6FD;
+  width: 80%;
+  margin: auto;
 }
-
+:root {
+  background-color: #F3F6FD;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
