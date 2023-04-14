@@ -1,14 +1,16 @@
-// import Project1 from 'images/porject1.png'
+import LinkComponent from "../component/linkComponent";
+
 function ProjectCard(props) {
     return (
-        <div className="bg-white rounded-lg w-2/6 m-10 p-4">
+        <div className="bg-white rounded-lg w-3/12 mx-6 my-3 p-4">
             <div>
-                <img src={props.img} alt="" />
+                <img className="rounded-lg" src={props.img} alt={props.title} />
             </div>
-            <div>
+            <div className="mt-4">
                 <h2 className="text-lg font-bold my-2">{props.title}</h2>
-                <p className="">{props.content}</p>
+                <p className="font-medium leading-7">{props.content}</p>
             </div>
+            <LinkComponent item="Project"/>
         </div>
     )
 }
