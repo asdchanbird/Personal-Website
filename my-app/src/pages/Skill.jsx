@@ -1,69 +1,69 @@
 import SkillCard from '../component/skillCard';
 const FirstList = [{
     id:1,
-    list:'- HTML / CSS',
+    list:' HTML / CSS',
 },{
     id:2,
-    list:'- JavaScript',
+    list:' JavaScript',
 },{
     id:3,
-    list:'- AJAX / Axios / Fetch',
+    list:' AJAX / Axios',
 },{
     id:4,
-    list:'- jQuery',
+    list:' jQuery',
 },{
     id:4,
-    list:'- GSAP',
+    list:' GSAP',
 },{
     id:5,
-    list:'- SASS',
+    list:' SASS',
 },{
     id:6,
-    list:'- Vue3 / Vue cli / Vite',
+    list:' Vue3 / Vue cli / Vite',
 },{
     id:7,
-    list:'- React',
+    list:' React',
 },{
     id:8,
-    list:'- Bootstrap / Tailwind CSS',
+    list:' Bootstrap / Tailwind CSS',
 },]
 const SecondList = [{
     id:1,
-    list:'- PHP',
+    list:' PHP',
 },{
     id:2,
-    list:'- Python',
+    list:' Python',
 },{
     id:3,
-    list:'- MySQL',
+    list:' MySQL',
 },{
     id:4,
-    list:'- SQLite',
+    list:' SQLite',
 },]
 const ThirdList = [{
     id:1,
-    list:'- Sourcetree / Git 版控',
+    list:' Sourcetree / Git 版控',
 },{
     id:2,
-    list:'- Adobe Photoshop',
+    list:' Adobe Photoshop',
 },{
     id:3,
-    list:'- Figma',
+    list:' Figma',
 },{
     id:4,
-    list:'- Postman API測試工具',
+    list:' Postman API測試工具',
 },{
     id:5,
-    list:'- Notion 筆記工具',
+    list:' Notion 筆記工具',
 },]
 function Skill(props) {
     return(
-        <div className="App h-screen">
-            <div className='flex justify-center h-screen font-extrabold flex-col'>
+        <div className="App lg:h-screen">
+            <div className='flex justify-center font-extrabold flex-col h-full'>
                 <div className=''>
                     <h2 className='mainColor text-2xl w-full text-center mt-4 h-1/6'>技能 Skills</h2>
                 </div>
-                <div className='flex h-5/6'>
+                <div className='flex h-5/6 flex-col lg:flex-row'>
                     <SkillCard List={FirstList} title='前端技能' />
                     <SkillCard List={SecondList} title='後端技能與資料庫' />
                     <SkillCard List={ThirdList} title='其他技能與輔助工具' />

@@ -4,7 +4,7 @@ function Button2(props) {
     useEffect(() => {
     },[]);
     return(
-        <button type="button" className="button btn2 px-5 py-3 m-2 text-lg w-28 rounded-lg font-bold">{props.content}</button>
+        <button type="button" className="button btn2 px-4 py-2 m-2 text-md w-22 rounded-lg font-bold">{props.content}</button>
     )
 }
 

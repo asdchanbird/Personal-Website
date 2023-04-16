@@ -11,14 +11,16 @@ function About() {
     const [title, setTitle] = useState('介紹')
     const [content, setContent] = useState(about1.content)
     return (
-        <div className="App flex w-screen h-screen">
+        <div className="App flex w-screen h-screen flex-col lg:flex-row">
             <div className="homeImg relative flex-1 flex justify-center">
                 <div className="circle absolute top-8 left-36 inset-x-1/2 rounded-full h-3/5 w-3/5 bg-blue-400 filter"></div>
                 <div className="circle absolute top-48 left-0 inset-x-1/2 rounded-full h-3/5 w-3/5 bg-yellow-500 filter"></div>
                 <div className="circle absolute top-32 left inset-x-1/2 rounded-full h-3/5 w-3/5 bg-red-300 filter"></div>
-                <img src={person2} alt="" className='w-4/6 z-10 relative object-contain'/>
+                <div className='flex justify-center'>
+                    <img src={person2} alt="" className='w-3/6 z-10 relative object-contain lg:w-4/6'/>
+                </div>
             </div>  
-            <div className="homeTxt flex-1 flex flex-col items-center p-32">
+            <div className="homeTxt flex-1 flex flex-col items-center p-3 lg:p-32">
                 <div className="txtWrapper">
                     <h1 className='text-blue-500 font-bold text-2xl items-center text-left p-4'>關於我 About us</h1>
                     <div className='flex'>

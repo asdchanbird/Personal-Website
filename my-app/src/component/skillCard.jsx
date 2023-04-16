@@ -2,7 +2,10 @@
 function App(props) {
     const object = props.List
     const FrontList = object.map((list)=> (
-        <li className="leading-8" key={list.id}>{list.list}</li>
+        <div className="flex items-center">
+            <img src="images/check.png" className="w-6 h-6" alt="" />
+            <div className="leading-8 ml-2" key={list.id}>{list.list}</div>
+        </div>
     )) 
     return (
         <>

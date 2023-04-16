@@ -35,21 +35,25 @@ function Home() {
     },[])
 
     return(
-        <div className="App flex w-screen h-screen overflow-hidden flex-col">
-            <div className="homeTxt flex flex-col items-center justify-center pt-3">
-                <div className="txtWrapper p-1">
-                    <h1 className='text-center   text-blue-500 font-bold text-xl items-center text-left p-1'>Hello! 我是Felix Liu </h1>
-                    <h2 className='text-gray-900 text-center font-bold text-lg leading-10'>是一名前端工程師，樂於接受挑戰、學習新事物</h2>    
+        <div className="App w-screen h-screen sm:h-screen xl:h-screen flex flex-col">
+            <div className='container flex flex-col items-center mx-auto'>
+                <div className="homeTxt flex flex-col items-center justify-center pt-3 mt-4">
+                    <div className="txtWrapper p-1">
+                        <h1 className='text-center text-blue-500 items-center p-1 sm:text-lg font-bold lg:text-2xl'>你好! 我是Felix Liu </h1>
+                        <h2 className='text-gray-800 text-center text-md leading-10 text-sm sm:text-sm font-bold lg:text-md my-1 '>是一名前端工程師，樂於接受挑戰、學習新事物</h2>    
+                    </div>
                 </div>
-            </div>
-            <div className='w-full flex justify-center'>
-                <Button2 content={'履歷CV'}/>
-                <Button content={'關於我'}/>  
-            </div>
-            <div className="homeImg relative flex justify-center">
-                <div className="circle absolute top-8 left-1/3 inset-x-1/2 rounded-full bg-blue-400 filter"></div>
-                <div className="circle absolute top-28 left inset-x-1/2 rounded-full bg-red-300 filter"></div>
-                <img src={person1} alt="" className='w-3/12 z-10 relative'/>
+                <div className='w-full flex justify-center'>
+                    <Button2 content={'履歷CV'}/>
+                    <Button content={'關於我'}/>  
+                </div>
+                <div className="homeImg relative flex justify-center h-72">
+                    <div className="circle absolute top-8 left-1/3 inset-x-1/2 rounded-full bg-blue-400 filter"></div>
+                    <div className="circle absolute top-28 left inset-x-1/2 rounded-full bg-red-300 filter"></div>
+                    <div className='flex justify-center h-full'>
+                        <img src={person1} alt="" className='w-full z-10 relative object-contain'/>
+                    </div>
+                </div>
             </div>
         </div>
     )
