@@ -18,7 +18,7 @@ function Myself() {
         .title} /> 
     ))
     return (
-        <div className="w-1/2">
+        <div className="w-full lg:w-1/2">
             <div className="w-full text-center">
                 <h2 className="text-xl mainColor mx-4 my-1 font-bold">聯絡資訊</h2>
             </div>

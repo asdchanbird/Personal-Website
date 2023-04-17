@@ -1,7 +1,7 @@
 import Button from "./btn1";
 function Form() {
     return (
-        <div className="w-1/2">
+        <div className="w-full md:w-2/3 lg:w-1/2">
             <div className="">    
                 <h2 className="text-center text-xl mainColor mx-4 my-1 font-bold">留下您的想法</h2>
             </div> 

@@ -50,7 +50,7 @@ function Home() {
                 <div className="homeImg relative flex justify-center h-72">
                     <div className="circle absolute top-8 left-1/3 inset-x-1/2 rounded-full bg-blue-400 filter"></div>
                     <div className="circle absolute top-28 left inset-x-1/2 rounded-full bg-red-300 filter"></div>
-                    <div className='flex justify-center h-full'>
+                    <div className='flex justify-center h-full homeImg'>
                         <img src={person1} alt="" className='w-full z-10 relative object-contain'/>
                     </div>
                 </div>
