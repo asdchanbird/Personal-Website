@@ -39,7 +39,7 @@ function Home() {
             <div className='container flex flex-col items-center mx-auto'>
                 <div className="homeTxt flex flex-col items-center justify-center pt-3 mt-4">
                     <div className="txtWrapper p-1">
-                        <h1 className='text-center text-blue-500 items-center p-1 sm:text-lg font-bold lg:text-2xl'>你好! 我是Felix Liu </h1>
+                        <h1 className='text-center text-blue-500 items-center p-1 text-2xl font-bold'>你好! 我是Felix Liu </h1>
                         <h2 className='text-gray-800 text-center text-md leading-10 text-sm sm:text-sm font-bold lg:text-md my-1 '>是一名前端工程師，樂於接受挑戰、學習新事物</h2>    
                     </div>
                 </div>

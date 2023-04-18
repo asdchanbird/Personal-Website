@@ -11,7 +11,7 @@ function About() {
     const [title, setTitle] = useState('介紹')
     const [content, setContent] = useState(about1.content)
     return (
-        <div className="App w-screen h-screen">
+        <div className="App w-screen h-screen" id='About'>
             <div className='w-full'>
                 <h1 className='text-blue-500 text-center font-bold text-2xl items-center p-4'>關於我 About us</h1>
             </div>
@@ -24,7 +24,7 @@ function About() {
                         <img src={person2} alt="" className='w-3/6 z-10 relative object-contain lg:w-full'/>
                     </div>
                 </div>  
-                <div className="homeTxt flex-1 flex flex-col items-center p-3 lg:p-24">
+                <div className="homeTxt flex-1 flex flex-col items-center p-3 lg:p-24 relative z-10">
                     <div className="txtWrapper">
                         <div className='flex'>
                             <Tab title={'介紹'} setTitle={setTitle} content={about1} setContent={setContent}/>
