@@ -58,7 +58,7 @@ const ThirdList = [{
 },]
 function Skill(props) {
     return(
-        <div className="App lg:h-screen">
+        <div className="App lg:h-screen" id='skill'>
             <div className='flex justify-center font-extrabold flex-col h-full'>
                 <div className=''>
                     <h2 className='mainColor text-2xl w-full text-center mt-4 h-1/6'>技能 Skills</h2>

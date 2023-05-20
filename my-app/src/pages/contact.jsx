@@ -5,7 +5,7 @@ function Contact() {
 
 
     return (
-        <div className='App flex flex-wrap px-10 lg:px-36'>
+        <div className='App flex flex-wrap px-10 lg:px-36' id='contact'>
            <div className="pt-4 w-full">
                 <h1 className='text-blue-500 text-center font-bold text-2xl items-center'>與我聯繫</h1>
             </div>

@@ -35,7 +35,7 @@ function Home() {
     },[])
 
     return(
-        <div className="App w-screen h-screen sm:h-screen xl:h-screen flex flex-col">
+        <div className="App w-screen h-screen sm:h-screen xl:h-screen flex flex-col" id='home'>
             <div className='container flex flex-col items-center mx-auto'>
                 <div className="homeTxt flex flex-col items-center justify-center pt-3 mt-4">
                     <div className="txtWrapper p-1">

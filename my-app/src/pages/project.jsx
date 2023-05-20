@@ -70,7 +70,7 @@ function Project() {
         })
     }
     return (
-        <div className="App w-full">
+        <div className="App w-full" id='project'>
             <div className="pt-4">
                 <h1 className='text-blue-500 text-center font-bold text-2xl items-center'>專案作品</h1>
                 <div className="flex justify-center">
